@@ -1,0 +1,22 @@
+html, body{
+  text-align: center;
+  background: #26baba;
+  max-width: screen;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 50px; 
+}
+
+.submit {
+  display: block;
+  margin: 25px auto 0;
+}
+
+.metalMade label,
+.metalMade input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
