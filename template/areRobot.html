@@ -1,0 +1,45 @@
+<Doctype html>
+<html>
+<head>
+  <title>Are You a Robot?</title>
+  <link href="static/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div>
+    <h1>{title}</h1>
+  </div>
+  <div>
+    <form method="post" action="/check">
+      
+      <p class="metalMade" >
+        Are you made of metal?
+        <label>
+          <input type="radio" name="metal" value="yes" required>
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="metal" value="no">
+          No
+        </label>
+      </p>
+
+      <p>How often do you consume oil<input type="text" name="oilDrink" required></p>
+
+      <p> Which film do you think represents you the best?
+        <select name="film">
+          <option value="irobot">I, Robot</option>
+          <option value="robots">Robots</option>
+          <option value="robocop">Robocop</option>
+          <option value="shawshank">The Shawshank Redemption</option>
+          <option value="monte">The Count of Monte Crisco</option>
+        </select>
+      </p>
+      
+      <div>
+        <button class="submit" type="submit">Am I a robot?</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
